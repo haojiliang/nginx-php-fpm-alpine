@@ -2,7 +2,7 @@
   
 docker pull haojiliang/nginx-php-fpm-alpine:v1.15.7  
   
-nginx 1.15.7  
+nginx 1.15.7   
 php 7.2.12  
 php-fpm  
 alpine 3.8  
