@@ -2,9 +2,9 @@
 docker pull haojiliang/nginx-php-fpm-alpine:v1.15.7  
   
 nginx 1.15.7    
-php 7.2.12  
+php 7.0.33  
 php-fpm  
-alpine 3.8  
+alpine 3.7  
   
 # php default.conf
 ```
