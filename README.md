@@ -6,6 +6,17 @@ php 7.2.12
 php-fpm  
 alpine 3.8  
   
+# php default.conf
+```
+location ~ \.php$ {
+    root           html;
+    fastcgi_pass   127.0.0.1:9000;
+    fastcgi_index  index.php;
+    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+    include        fastcgi_params;
+}
+```
+  
 # docker-compose.yml  
 ```
 version: '3.1'
