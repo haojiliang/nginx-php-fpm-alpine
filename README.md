@@ -1,3 +1,6 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/haojiliang/nginx-php-fpm-alpine.svg)](https://hub.docker.com/r/haojiliang/nginx-php-fpm-alpine)
+[![Docker Stars](https://img.shields.io/docker/stars/haojiliang/nginx-php-fpm-alpine.svg)](https://hub.docker.com/r/haojiliang/nginx-php-fpm-alpine)
+  
 # nginx-php-fpm-alpine  
 docker pull haojiliang/nginx-php-fpm-alpine:v1.15.7  
   
