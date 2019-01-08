@@ -36,6 +36,8 @@ services:
       - "www.vhxsl.com:127.0.0.1"
       - "m.vhxsl.com:127.0.0.1"
     volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
       - /data/nginx/html/wordpress:/data/www/wordpress
       - /data/nginx/html/default:/usr/share/nginx/html
       - /data/nginx/conf/nginx.conf:/etc/nginx/nginx.conf
@@ -50,6 +52,8 @@ services:
     image: mysql:5.7.24
     container_name: "mysql_container"
     volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
       - /data/mysql/data:/var/lib/mysql
       - /data/mysql/conf:/etc/mysql/conf.d
       - /data/mysql/logs:/data/mysql/logs
